@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#navber{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: palevioletred;
+    font-weight: bold;  
+}
+header h1{
+    color: white;
+    box-shadow: 4px 4px 4px bisque;
+    border-radius: 10px;
+   
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul li{
+    margin-left: 20px;
+    
+}
+#banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+ 
+}
+#banner img{
+    max-height: 500px;
+    width: 500px;
+    border-radius: 300px;
+    margin-top: 10px;
+    box-shadow: 4px 4px 4px 4px palevioletred;
+   
+   
+}
+#banner-right{
+    text-align: center;
+    padding-top: 100px;
+    color: palevioletred;
+  
+}
+#banner-right button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    box-shadow:0px 6px 6px white;
+}
+#about{
+    text-align: center;
+    background-color: palevioletred;
+    color: white;
+    padding: 100px;
+    margin-top: 30px;
+}
+#my-skills{
+    text-align: center;
+    color: palevioletred;
+    padding: 100px;
+}
+#skills{
+    display: flex;
+    gap: 10px;
+    height: 300px;
+    width: 200px auto;
+    background-color: blanchedalmond;
+    padding: 50px; 
+    border-radius: 30px; 
+    box-shadow:4px 4px 4px 4px palevioletred;
+  
+}
+.skills-container{
+    background-color: palevioletred;
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px white;
+    
+}
+#contact{
+    background-color: blanchedalmond;
+    color: palevioletred ;
+    text-align: center;
+    margin-top: 10px;
+    padding: 50px;
+   
+}
+
+footer{
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
